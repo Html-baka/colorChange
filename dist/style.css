@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+
 body {
    height: 100vh;
    margin: auto;
    padding: 0 10px;
+   font-family: 'Dosis', sans-serif;
 }
 .container {
    display: flex;
@@ -15,6 +18,34 @@ body {
 
 #colorDisplayed{
   display: inline;
+}
+.header_1{
+  font-size: 2rem;
+  text-transform: uppercase;
+  animation: colorchange 5s infinite alternate;
+}
+.header_1{
+  text-transform: uppercase;
+}
+@keyframes colorchange{
+  0% {
+    color: indigo;
+  }
+  20% {
+    color: blue;
+  }
+  40% {
+    color: green;
+  }
+  60% {
+    color: yellow;
+  }
+  80% {
+    color: orange;
+  }
+  100% {
+    color: red;
+  }
 }
 /*Button CSS */
 .colorChangeBtn {
