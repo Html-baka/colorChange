@@ -1,15 +1,15 @@
 {
-  "dependencies": {
-    "webpack": "^5.67.0",
-    "webpack-cli": "^4.9.2"
-  },
   "name": "hexColors",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
-  "devDependencies": {},
+  "devDependencies": {
+    "webpack": "^5.67.0",
+    "webpack-cli": "^4.9.2"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --output dist/bundle.js"
   },
   "keywords": [],
   "author": "Prystai Andrii",

@@ -1,0 +1,1 @@
+(()=>{"use strict";document.querySelector(".colorChangeBtn").addEventListener("click",(function(){const t=(Math.floor(16777216*Math.random())+0).toString(16);document.body.style.background=`#${t}`,function(t){document.querySelector("#colorDisplayed").innerText="#"+t}(t)}))})();
