@@ -1,6 +1,7 @@
 body {
    height: 100vh;
    margin: auto;
+   padding: 0 10px;
 }
 .container {
    display: flex;
